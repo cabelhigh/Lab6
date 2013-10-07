@@ -1,0 +1,13 @@
+scp [-r] filename/path username@desitnation:destination place
+     ^
+   can be directory
+
+--copy files over ssh--
+
+ssh-keygen -t rsa
+
+--generates a new ssh key--
+
+vim.rc 
+
+--add cool things to vim--

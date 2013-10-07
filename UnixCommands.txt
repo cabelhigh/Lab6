@@ -11,3 +11,7 @@ ssh-keygen -t rsa
 vim.rc 
 
 --add cool things to vim--
+
+git -a
+
+--add all the files that are being watched by git, as in those you've already commited

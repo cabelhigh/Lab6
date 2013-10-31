@@ -13,11 +13,17 @@ int main(int argc, char *argv[]){
 				i++;				
 				width = atoi(argv[i]);
 			}
-			else if(argv[i][1]=='r')
+			else if(argv[i][1]=='r') {
 		}
+	}
 		else{
 			fp = fopen(argv[i], "r");
 			if(fp){}
 			else{
 				printf("Sorry, can't open file %s!", argv[i]);
+			}
+		}
+	}
+	
+}
 							

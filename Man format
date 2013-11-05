@@ -1,0 +1,49 @@
+.\" Robin Wong and Erik Larson Fall 2013
+
+.TH Format  "CSCI 241" "Oberlin College"
+
+.SH FORMAT
+.B FORMAT
+-- a text formatting program
+
+.SH SYNOPSIS
+.B sample_man
+.B [
+-h stuff
+.B ]
+.BR [ -q ]
+.BR [ " -o output " ]
+.BR [ "-r input" ]
+<filenames>
+
+.SH DESCRIPTION
+.B Does text formatting
+
+.SH OPTIONS
+
+.IP -w <int>
+Changes line width to the next argument after the w flag.
+
+.IP -r
+Right-aligns the text
+
+.IP -j
+Fully justifies the text so that there is text on both the beginning and end of the line
+
+.IP -s
+Removes excess paragraph breaks.
+
+.SH DIAGNOSTICS
+If you have error messages that you generate or non-zero return values, explain them here.
+
+.SS Subsection
+Subsections usually just have the first letter capitalized
+
+.SH AUTHOR
+
+Robin Wong <rwong@oberlin.edu>
+Erik Larson <elarson@oberlin.edu>
+
+.SH BUGS
+
+List bugs here.  Shouldn't be any, right? :-)
